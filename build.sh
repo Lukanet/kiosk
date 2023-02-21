@@ -39,7 +39,7 @@ cd build
 zip -r ../dist/$VERSION_NAME-chrome-app.zip unpackaged
 
 # build desktop versions
-build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ --chrome-app ./unpackaged
+build --tasks linux-x64,linux-x86,win-x86,win-x64,mac-x64 --mirror https://dl.nwjs.io/ --chrome-app ./unpackaged
 
 # create osx dmg
 if [ -e ../node_modules/appdmg/bin/appdmg.js ]; then

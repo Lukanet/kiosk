@@ -19,7 +19,7 @@
   },
   "app": {
     "background": {
-      "scripts": ["node_modules/async/dist/async.js", "./node_modules/lodash/lodash.min.js", "js/wsc-chrome.js", "js/main.js"],
+      "scripts": ["node_modules/async/dist/async.js", "node_modules/lodash/lodash.min.js", "js/wsc-chrome.js", "js/main.js"],
       "persistent": false
     }
   },
