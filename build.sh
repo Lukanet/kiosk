@@ -30,6 +30,8 @@ mkdir -p build/unpackaged/node_modules/materialize-css/dist/js
 cp node_modules/materialize-css/dist/js/materialize.js build/unpackaged/node_modules/materialize-css/dist/js/materialize.js
 mkdir -p build/unpackaged/node_modules/moment
 cp node_modules/moment/moment.js build/unpackaged/node_modules/moment/moment.js
+mkdir -p build/unpackaged/node_modules/lodash
+cp node_modules/lodash/lodash.min.js build/unpackaged/node_modules/lodash/lodash.min.js
 
 cd build
 
