@@ -40,7 +40,9 @@ zip -r ../dist/$VERSION_NAME-chrome-app.zip unpackaged
 build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ --chrome-app ./unpackaged
 
 # create osx dmg
+if [ -e ../node_modules/appdmg/bin/appdmg.js ]; then
   cd mac-x64
+  echo "{
   \"title\": \"$NAME\",
   \"icon\": \"../unpackaged/img/icon.icns\",
   \"contents\": [
@@ -53,6 +55,7 @@ build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nw
 }" > appdmg.json
   node ../../node_modules/appdmg/bin/appdmg.js appdmg.json ../../dist/$VERSION_NAME-mac-x64.dmg
   cd ..
+fi
 
 # clean up
 mv win-x64-Setup.exe ../dist/$VERSION_NAME-win-x64-setup.exe

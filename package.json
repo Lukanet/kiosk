@@ -20,7 +20,6 @@
   },
   "homepage": "https://kiosk.cook.company",
   "devDependencies": {
-    "appdmg": "^0.5.2",
     "glob-run": "^0.1.7",
     "js-beautify": "^1.6.14",
     "jshint": "^2.9.5",
