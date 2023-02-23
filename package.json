@@ -1,7 +1,7 @@
 {
-  "name": "kiosk",
-  "version": "9.2.0",
-  "description": "Kiosk",
+  "name": "barsykiosk",
+  "version": "1.0.0",
+  "description": "BarsyKiosk",
   "main": "main.js",
   "scripts": {
     "lint": "jshint src/js/**.js",
@@ -11,14 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiosk-enterprise/kiosk.git"
+    "url": "git+https://github.com/lukanet/kiosk.git"
   },
-  "author": "Matt Cook <support@cook.company>",
+  "author": "Lukanet Ltd <helpme@lukanet.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://kiosk.cook.company/support"
-  },
-  "homepage": "https://kiosk.cook.company",
+  "homepage": "https://barsy.bg",
   "devDependencies": {
     "glob-run": "^0.1.7",
     "js-beautify": "^1.6.14",

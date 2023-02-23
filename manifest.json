@@ -1,12 +1,12 @@
 {
-  "name": "Kiosk",
+  "name": "BarsyKiosk",
   "description": "Launch any URL as a full-screen kiosk.",
   "manifest_version": 2,
-  "version": "9.3.0",
-  "version_name": "kiosk-9.3.0",
+  "version": "1.0.0",
+  "version_name": "barsykiosk-1.0.0",
   "author": {
-    "name": "The Cook Company",
-    "email": "support@cook.company"
+    "name": "Lukanet Ltd",
+    "email": "helpme@lukanet.com"
   },
   "kiosk_enabled": true,
   "kiosk": { 
