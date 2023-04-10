@@ -70,7 +70,7 @@
     }
   },
   "build": {
-    "nwVersion": "0.35.4",
+    "nwVersion": "0.47.2",
     "ffmpegIntegration": true,
     "output": "../",
     "outputPattern": "${PLATFORM}-${ARCH}",
