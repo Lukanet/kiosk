@@ -44,7 +44,7 @@ $(function() {
   init();
 
   function setStatus(status) {
-    console.log('status: ', status);
+    console.log('status: ' + status);
     $('#status').text(status);
   }
 
