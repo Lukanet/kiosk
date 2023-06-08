@@ -83,7 +83,7 @@ function generateGuid() {
 }
 
 function setStatus(status) {
-  console.log('status: ', status);
+  console.log('status: ' + status);
 }
 
 function init() {
